@@ -5,7 +5,7 @@ import { Slate, Editable, withReact } from 'slate-react'
 
 const Leaf = ({ attributes, children, leaf }) => {
   if (leaf.code) {
-    children = <span class="code">{children}</span>
+    children = <span className="code">{children}</span>
   }
 
   return <span {...attributes}>{children}</span>
